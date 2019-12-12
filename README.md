@@ -12,7 +12,7 @@
 ## Wiring ##
 ![Image of board](http://yozen.ct8.pl/teensy/github/board.png)
 
-## How to use it? ##
+## Promoted raid shiny hunting - How to use it? ##
 Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Switch-Fightstick#compiling-and-flashing-onto-the-teensy-20) how to compile it for Teensy 2.0++.
 
 * Connect Teensy to switch/dock (no other additional pads can be connected - JoyCons attached to the console are OK)
@@ -28,3 +28,42 @@ Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Swi
 
 Why starting from 01.XX.2019?
 Because macro is set to go over 31 days. When date is changed from 31 to 01 raid den needs different key input (den is not glowing). When date is change from 31 to 01 **Button 3** is disabled because pokemon from 31 and 01 is the same.
+
+## Watt Generator ##
+* Go to **Controllers > Change Grip/Order** menu and press **Button 2** few times. Your console should recognize new pad - great!
+* Open the game
+* Set date to 1 day of December (can be any month with 31 days)
+* Get watts from den and close it
+* Save game
+* Open the den (just open and do not click anything)
+* Press **Button 1** to reset the den (it will reset the raid den over and over). To stop unplug the teensy.
+
+## Suprise trade full box ##
+* Go to **Controllers > Change Grip/Order** menu and press **Button 2** few times. Your console should recognize new pad - great!
+* Open the game
+* Connect to internet **Y > +**.
+* Go to pokemon boxes and select your box which will be traded (jut open it - For example Box 11 with your IV4/IV5 no longer usefull breeded pokemons).
+* Close the box and main menu (you should see your character).
+* Press **Button 1** to run macro.
+* Wait for Blue Y-COM communicate that trade is over.
+* Press **Button 2** to get pokemon (if new entry in pokeex or pokemon evolving keep pressing it)
+* Repeat from **Button 1**
+
+# Own macros #
+Edit those lines: (leave those 3 from top)
+```
+static const command step[] = {
+	// Setup controller
+	{ NOTHING,   10 },
+	{ TRIGGERS,   5 },
+	{ NOTHING,   10 },
+	
+	// RAID RESET	
+	{ A,          5 },
+	{ NOTHING,   90 },
+	{ HOME,       5 }, 
+	{ NOTHING,   20 },
+	{ RIGHT,      5 }, 
+	{ NOTHING,    1 },
+	{ RIGHT,      5 },
+ ```
