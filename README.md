@@ -15,13 +15,14 @@
 ## How to use it? ##
 Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Switch-Fightstick#compiling-and-flashing-onto-the-teensy-20) how to compile it for Teensy 2.0++.
 
-* Connect Teensy to switch/dock (no other additional pads can be connected - JoyCons attached to the console are ok)
+* Connect Teensy to switch/dock (no other additional pads can be connected - JoyCons attached to the console are OK)
 * Go to **Controllers > Change Grip/Order** menu and press **Button 2** few times. Your console should recognize new pad - great!
 * Open the game and do [this](https://www.youtube.com/watch?v=G0GLuG8Z3IE) if you are trying to get any shiny Gigantamax Pokemon
 * Set date to 1 day of December (can be any month with 31 days)
+* Get watts from den and close it
 * Save game
-* For the 1st time check the den manualy
-* Press **Button 1** to reset the den (macro will press Invite Others > Change date > Exit searching > re-enter the den)
+* Open the den (just open and do not click anything)
+* Press **Button 1** to reset the den (macro will press Invite Others > Change date > Exit searching > re-enter the den). Also this button is set addtional LED to OFF)
 * Press **Button 3** if you want to get inside the den and check if pokemon is shiny (it will execute the macro - open den > you have to visually check if shiny > macro will close game > start it once again > open den. And you are on the same screen as you was). Additional LED on the board will be ON. To show that **Button 3** was pressed. Sometimes you can forgot which button you have pressed so now you will know.
 * Repeat clicking **Button 1** and **Button 3**
 
