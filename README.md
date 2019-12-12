@@ -15,7 +15,7 @@ Sorry for my english.
 ![Image of board](http://yozen.ct8.pl/teensy/github/board.png)
 
 ## Promoted raid shiny hunting - How to use it? ##
-Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Switch-Fightstick#compiling-and-flashing-onto-the-teensy-20) how to compile it for Teensy 2.0++.
+Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Switch-Fightstick#compiling-and-flashing-onto-the-teensy-20) how to compile and upload it for Teensy 2.0++.
 
 * Connect Teensy to switch/dock (no other additional pads can be connected - JoyCons attached to the console are OK)
 * Go to **Controllers > Change Grip/Order** menu and press **Button 2** few times. Your console should recognize new pad - great!
@@ -70,3 +70,9 @@ static const command step[] = {
 	{ NOTHING,    1 },
 	{ RIGHT,      5 },
  ```
+
+## Additional info ##
+If you unplug the Teensy from the console, or shutdown the switch you have to start from the beginning like set the date (for resetting the raids) or make sure you will send pokemon from good box over **Spectal Trade**.
+
+## Video ##
+[How it works!](https://www.youtube.com/watch?v=-5d7e2JXYhQ)
