@@ -50,7 +50,7 @@ Because macro is set to go over 31 days. When date is changed from 31 to 01 raid
 * Press **Button 1** to run macro.
 * Wait for Blue Y-COM communicate that trade is over.
 * Press **Button 2** to get pokemon (it's a Y button)
-* OPTIONAL **Button 3** it's a B button.
+* Press **Button 3** it's a B button.
 * Repeat from **Button 1**
 
 # Own macros #
