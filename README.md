@@ -49,7 +49,8 @@ Because macro is set to go over 31 days. When date is changed from 31 to 01 raid
 * Close the box and main menu (you should see your character).
 * Press **Button 1** to run macro.
 * Wait for Blue Y-COM communicate that trade is over.
-* Press **Button 2** to get pokemon (if new entry in pokeex or pokemon evolving keep pressing it)
+* Press **Button 2** to get pokemon (it's a Y button)
+* OPTIONAL **Button 3** it's a B button.
 * Repeat from **Button 1**
 
 # Own macros #
