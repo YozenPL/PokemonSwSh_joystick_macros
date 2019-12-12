@@ -25,6 +25,7 @@ Go to [shinyquagsire23/Switch-Fightstick](https://github.com/shinyquagsire23/Swi
 * Save game
 * Open the den (just open and do not click anything)
 * Press **Button 1** to reset the den (macro will press Invite Others > Change date > Exit searching > re-enter the den). Also this button is set addtional LED to OFF)
+* If new pokemon is Gigantamax do next step. If not click **Button 1** to re-roll.
 * Press **Button 3** if you want to get inside the den and check if pokemon is shiny (it will execute the macro - open den > you have to visually check if shiny > macro will close game > start it once again > open den. And you are on the same screen as you was). Additional LED on the board will be ON. To show that **Button 3** was pressed. Sometimes you can forgot which button you have pressed so now you will know.
 * Repeat clicking **Button 1** and **Button 3**
 
