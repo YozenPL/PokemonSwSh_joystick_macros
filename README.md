@@ -1,4 +1,6 @@
-# In progress #
+I am not a programmer. The code was written by trial and error - but it's important that it works :)
+Wiring could probably also be done better.
+Sorry for my english.
 
 ## What is it? ##
 1/2/3 button macros for:
