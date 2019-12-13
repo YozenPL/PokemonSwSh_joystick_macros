@@ -73,7 +73,7 @@ static const command step[] = {
  ```
 
 ## Additional info ##
-If you unplug the Teensy from the console, or shutdown the switch you have to start from the beginning like set the date (for resetting the raids) or make sure you will send pokemon from good box over **Spectal Trade**.
+If you unplug the Teensy from the console, or shutdown the switch you have to start from the beginning like set the date (for resetting the raids) or make sure you will send pokemon from good box over **Spectal Trade**. You must set text speed to **Fast**.
 
 ## Video ##
 [How it works!](https://www.youtube.com/watch?v=-5d7e2JXYhQ)
