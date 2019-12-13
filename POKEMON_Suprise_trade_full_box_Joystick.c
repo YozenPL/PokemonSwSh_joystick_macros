@@ -452,7 +452,7 @@ void GetNextReport(USB_JoystickReport_Input_t* const ReportData) {
 				state = PROCESS;
 				_delay_ms(300);
 				skip++;
-				if (skip == 29) {
+				if (skip == 30) {
 					skip = 0;
 				}
 				break;
